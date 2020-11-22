@@ -1,0 +1,27 @@
+#tetris-grid {
+  width: 210px;
+  height: 400px;
+  background-color: darkgray;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.grid-block {
+  height: 19px;
+  width: 19px;
+  background-color: aqua;
+  border: 1px black solid;
+}
+
+#start {
+  display: block;
+}
+
+.box {
+  float: right;
+}
+
+h1 {
+  text-align: center;
+}
