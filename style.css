@@ -1,25 +1,44 @@
+body {
+  font-family: monospace;
+}
+
+.container {
+  display: flex;
+}
+
 #tetris-grid {
-  width: 210px;
-  height: 400px;
-  background-color: darkgray;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+  margin-bottom: 50px;
+  border: solid 2px;
+  height: 420px;
+  width: 210px;
 }
 
 .grid-block {
-  height: 19px;
-  width: 19px;
   background-color: aqua;
   border: 1px black solid;
+  width: 19px;
+  height: 19px;
+}
+
+.tetromino {
+  background-color: brown;
+}
+
+.start-box {
+  display: flex;
 }
 
 #start {
-  display: block;
+  margin: auto;
 }
 
 .box {
-  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h1 {
